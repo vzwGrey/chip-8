@@ -28,7 +28,7 @@ $ chip8 br8kout.ch8
 
 ## Keybindings
 
-The following is the original CHIP-8:
+The following is the original CHIP-8 keyboard layout:
 
 |   |   |   |   |
 |:-:|:-:|:-:|:-:|
@@ -44,7 +44,7 @@ This emulator maps those keys onto the following for modern (QWERTY) keyboards:
 | 1 | 2 | 3 | 4 |
 | Q | W | E | R |
 | A | S | D | F |
-| Z | X | C | Z |
+| Z | X | C | V |
 
 ## License
 
