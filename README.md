@@ -12,7 +12,7 @@ Run the following command in the project directory to generate the executable:
 $ cargo build --release
 ```
 
-The resulting exectuable can be found under `target/release/chip8` in the project
+The resulting executable can be found under `target/release/chip8` in the project
 directory.
 
 To run a game, invoke the executable with a path to a ROM file like so:
