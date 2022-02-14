@@ -2,6 +2,8 @@
 
 A [CHIP-8](https://www.rust-lang.org/) emulator written in Rust.
 
+![Screenshot of the emulator playing a pong clone](./screenshot.png)
+
 ## Building & Usage
 
 To compile the project [Rust](https://www.rust-lang.org/) is required.
@@ -17,6 +19,9 @@ To run a game, invoke the executable with a path to a ROM file like so:
 ```
 $ chip8 br8kout.ch8
 ```
+
+See the [CHIP-8 archive](https://johnearnest.github.io/chip8Archive/) for a 
+collection of modern CHIP-8 games to play.
 
 ## Features
 
