@@ -2,7 +2,7 @@
 
 A [CHIP-8](https://www.rust-lang.org/) emulator written in Rust.
 
-![Screenshot of the emulator playing a pong clone](./screenshot.png)
+![Screenshot of the emulator playing a breakout clone](./screenshot.png)
 
 ## Building & Usage
 
