@@ -546,6 +546,7 @@ impl IO {
 
         if self.did_draw {
             win.update_with_buffer(&self.frame_buffer, WIDTH, HEIGHT)?;
+            self.did_draw = false;
         }
 
         Ok(())
@@ -564,7 +565,7 @@ fn main() -> eyre::Result<()> {
         ..minifb::WindowOptions::default()
     };
     let mut win = minifb::Window::new("CHIP-8", WIDTH, HEIGHT, win_options)?;
-    win.limit_update_rate(None);
+    win.limit_update_rate(Some(std::time::Duration::from_micros(16600)));
 
     #[cfg(debug_assertions)]
     let mut i = 0;
